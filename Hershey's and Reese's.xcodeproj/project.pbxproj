@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ADDBD7C277274DA00321840 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDBD7B277274DA00321840 /* AppDelegate.swift */; };
+		3ADDBD7E277274DA00321840 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDBD7D277274DA00321840 /* SceneDelegate.swift */; };
+		3ADDBD80277274DA00321840 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDBD7F277274DA00321840 /* ViewController.swift */; };
+		3ADDBD83277274DA00321840 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADDBD81277274DA00321840 /* Main.storyboard */; };
+		3ADDBD85277274DB00321840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADDBD84277274DB00321840 /* Assets.xcassets */; };
+		3ADDBD88277274DB00321840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADDBD86277274DB00321840 /* LaunchScreen.storyboard */; };
+		3ADDBD93277274DB00321840 /* Hershey_s_and_Reese_sTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDBD92277274DB00321840 /* Hershey_s_and_Reese_sTests.swift */; };
+		3ADDBD9D277274DB00321840 /* Hershey_s_and_Reese_sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDBD9C277274DB00321840 /* Hershey_s_and_Reese_sUITests.swift */; };
+		3ADDBD9F277274DB00321840 /* Hershey_s_and_Reese_sUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADDBD9E277274DB00321840 /* Hershey_s_and_Reese_sUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ADDBD8F277274DB00321840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADDBD70277274DA00321840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADDBD77277274DA00321840;
+			remoteInfo = "Hershey's and Reese's";
+		};
+		3ADDBD99277274DB00321840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADDBD70277274DA00321840 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADDBD77277274DA00321840;
+			remoteInfo = "Hershey's and Reese's";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ADDBD78277274DA00321840 /* Hershey's and Reese's.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hershey's and Reese's.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADDBD7B277274DA00321840 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3ADDBD7D277274DA00321840 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3ADDBD7F277274DA00321840 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3ADDBD82277274DA00321840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ADDBD84277274DB00321840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ADDBD87277274DB00321840 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ADDBD89277274DB00321840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADDBD8E277274DB00321840 /* Hershey's and Reese'sTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hershey's and Reese'sTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADDBD92277274DB00321840 /* Hershey_s_and_Reese_sTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hershey_s_and_Reese_sTests.swift; sourceTree = "<group>"; };
+		3ADDBD98277274DB00321840 /* Hershey's and Reese'sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hershey's and Reese'sUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADDBD9C277274DB00321840 /* Hershey_s_and_Reese_sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hershey_s_and_Reese_sUITests.swift; sourceTree = "<group>"; };
+		3ADDBD9E277274DB00321840 /* Hershey_s_and_Reese_sUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hershey_s_and_Reese_sUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ADDBD75277274DA00321840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADDBD8B277274DB00321840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADDBD95277274DB00321840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ADDBD6F277274DA00321840 = {
+			isa = PBXGroup;
+			children = (
+				3ADDBD7A277274DA00321840 /* Hershey's and Reese's */,
+				3ADDBD91277274DB00321840 /* Hershey's and Reese'sTests */,
+				3ADDBD9B277274DB00321840 /* Hershey's and Reese'sUITests */,
+				3ADDBD79277274DA00321840 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ADDBD79277274DA00321840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ADDBD78277274DA00321840 /* Hershey's and Reese's.app */,
+				3ADDBD8E277274DB00321840 /* Hershey's and Reese'sTests.xctest */,
+				3ADDBD98277274DB00321840 /* Hershey's and Reese'sUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ADDBD7A277274DA00321840 /* Hershey's and Reese's */ = {
+			isa = PBXGroup;
+			children = (
+				3ADDBD7B277274DA00321840 /* AppDelegate.swift */,
+				3ADDBD7D277274DA00321840 /* SceneDelegate.swift */,
+				3ADDBD7F277274DA00321840 /* ViewController.swift */,
+				3ADDBD81277274DA00321840 /* Main.storyboard */,
+				3ADDBD84277274DB00321840 /* Assets.xcassets */,
+				3ADDBD86277274DB00321840 /* LaunchScreen.storyboard */,
+				3ADDBD89277274DB00321840 /* Info.plist */,
+			);
+			path = "Hershey's and Reese's";
+			sourceTree = "<group>";
+		};
+		3ADDBD91277274DB00321840 /* Hershey's and Reese'sTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ADDBD92277274DB00321840 /* Hershey_s_and_Reese_sTests.swift */,
+			);
+			path = "Hershey's and Reese'sTests";
+			sourceTree = "<group>";
+		};
+		3ADDBD9B277274DB00321840 /* Hershey's and Reese'sUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ADDBD9C277274DB00321840 /* Hershey_s_and_Reese_sUITests.swift */,
+				3ADDBD9E277274DB00321840 /* Hershey_s_and_Reese_sUITestsLaunchTests.swift */,
+			);
+			path = "Hershey's and Reese'sUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ADDBD77277274DA00321840 /* Hershey's and Reese's */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADDBDA2277274DB00321840 /* Build configuration list for PBXNativeTarget "Hershey's and Reese's" */;
+			buildPhases = (
+				3ADDBD74277274DA00321840 /* Sources */,
+				3ADDBD75277274DA00321840 /* Frameworks */,
+				3ADDBD76277274DA00321840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hershey's and Reese's";
+			productName = "Hershey's and Reese's";
+			productReference = 3ADDBD78277274DA00321840 /* Hershey's and Reese's.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ADDBD8D277274DB00321840 /* Hershey's and Reese'sTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADDBDA5277274DB00321840 /* Build configuration list for PBXNativeTarget "Hershey's and Reese'sTests" */;
+			buildPhases = (
+				3ADDBD8A277274DB00321840 /* Sources */,
+				3ADDBD8B277274DB00321840 /* Frameworks */,
+				3ADDBD8C277274DB00321840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ADDBD90277274DB00321840 /* PBXTargetDependency */,
+			);
+			name = "Hershey's and Reese'sTests";
+			productName = "Hershey's and Reese'sTests";
+			productReference = 3ADDBD8E277274DB00321840 /* Hershey's and Reese'sTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ADDBD97277274DB00321840 /* Hershey's and Reese'sUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADDBDA8277274DB00321840 /* Build configuration list for PBXNativeTarget "Hershey's and Reese'sUITests" */;
+			buildPhases = (
+				3ADDBD94277274DB00321840 /* Sources */,
+				3ADDBD95277274DB00321840 /* Frameworks */,
+				3ADDBD96277274DB00321840 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ADDBD9A277274DB00321840 /* PBXTargetDependency */,
+			);
+			name = "Hershey's and Reese'sUITests";
+			productName = "Hershey's and Reese'sUITests";
+			productReference = 3ADDBD98277274DB00321840 /* Hershey's and Reese'sUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ADDBD70277274DA00321840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3ADDBD77277274DA00321840 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3ADDBD8D277274DB00321840 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3ADDBD77277274DA00321840;
+					};
+					3ADDBD97277274DB00321840 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3ADDBD77277274DA00321840;
+					};
+				};
+			};
+			buildConfigurationList = 3ADDBD73277274DA00321840 /* Build configuration list for PBXProject "Hershey's and Reese's" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ADDBD6F277274DA00321840;
+			productRefGroup = 3ADDBD79277274DA00321840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ADDBD77277274DA00321840 /* Hershey's and Reese's */,
+				3ADDBD8D277274DB00321840 /* Hershey's and Reese'sTests */,
+				3ADDBD97277274DB00321840 /* Hershey's and Reese'sUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ADDBD76277274DA00321840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADDBD88277274DB00321840 /* LaunchScreen.storyboard in Resources */,
+				3ADDBD85277274DB00321840 /* Assets.xcassets in Resources */,
+				3ADDBD83277274DA00321840 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADDBD8C277274DB00321840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADDBD96277274DB00321840 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ADDBD74277274DA00321840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADDBD80277274DA00321840 /* ViewController.swift in Sources */,
+				3ADDBD7C277274DA00321840 /* AppDelegate.swift in Sources */,
+				3ADDBD7E277274DA00321840 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADDBD8A277274DB00321840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADDBD93277274DB00321840 /* Hershey_s_and_Reese_sTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADDBD94277274DB00321840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADDBD9F277274DB00321840 /* Hershey_s_and_Reese_sUITestsLaunchTests.swift in Sources */,
+				3ADDBD9D277274DB00321840 /* Hershey_s_and_Reese_sUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ADDBD90277274DB00321840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ADDBD77277274DA00321840 /* Hershey's and Reese's */;
+			targetProxy = 3ADDBD8F277274DB00321840 /* PBXContainerItemProxy */;
+		};
+		3ADDBD9A277274DB00321840 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ADDBD77277274DA00321840 /* Hershey's and Reese's */;
+			targetProxy = 3ADDBD99277274DB00321840 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ADDBD81277274DA00321840 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADDBD82277274DA00321840 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ADDBD86277274DB00321840 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADDBD87277274DB00321840 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ADDBDA0277274DB00321840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ADDBDA1277274DB00321840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ADDBDA3277274DB00321840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YYD2J449J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hershey's and Reese's/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gudino.Hershey-s-and-Reese-s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ADDBDA4277274DB00321840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YYD2J449J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hershey's and Reese's/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gudino.Hershey-s-and-Reese-s";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3ADDBDA6277274DB00321840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YYD2J449J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gudino.Hershey-s-and-Reese-sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hershey's and Reese's.app/Hershey's and Reese's";
+			};
+			name = Debug;
+		};
+		3ADDBDA7277274DB00321840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YYD2J449J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gudino.Hershey-s-and-Reese-sTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hershey's and Reese's.app/Hershey's and Reese's";
+			};
+			name = Release;
+		};
+		3ADDBDA9277274DB00321840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YYD2J449J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gudino.Hershey-s-and-Reese-sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hershey's and Reese's";
+			};
+			name = Debug;
+		};
+		3ADDBDAA277274DB00321840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YYD2J449J6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Gudino.Hershey-s-and-Reese-sUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hershey's and Reese's";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ADDBD73277274DA00321840 /* Build configuration list for PBXProject "Hershey's and Reese's" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADDBDA0277274DB00321840 /* Debug */,
+				3ADDBDA1277274DB00321840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADDBDA2277274DB00321840 /* Build configuration list for PBXNativeTarget "Hershey's and Reese's" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADDBDA3277274DB00321840 /* Debug */,
+				3ADDBDA4277274DB00321840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADDBDA5277274DB00321840 /* Build configuration list for PBXNativeTarget "Hershey's and Reese'sTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADDBDA6277274DB00321840 /* Debug */,
+				3ADDBDA7277274DB00321840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADDBDA8277274DB00321840 /* Build configuration list for PBXNativeTarget "Hershey's and Reese'sUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADDBDA9277274DB00321840 /* Debug */,
+				3ADDBDAA277274DB00321840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ADDBD70277274DA00321840 /* Project object */;
+}
